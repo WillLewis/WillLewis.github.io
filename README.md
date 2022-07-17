@@ -1,2 +1,1 @@
-# WillLewis.github.io
-more on me
+This is a starter template for [Learn Next.js](https://nextjs.org/learn).
