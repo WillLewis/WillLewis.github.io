@@ -1,5 +1,3 @@
 module.exports = {
-    basePath: '/gh-pages-WillLewis\n' +
-        '/\n' +
-        'WillLewis.github.io',
+    basePath: '/gh-pages-WillLewis.github.io'
 }
