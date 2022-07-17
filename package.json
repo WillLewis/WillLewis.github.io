@@ -1,19 +1,17 @@
 {
   "private": true,
-  "homepage": "https://WillLewis.github.io",
   "scripts": {
     "dev": "next",
     "build": "next build && next export",
-    "deploy": "next build && touch out/.nojekyll && git add out/ && git commit -m \"Deploy\" && git subtree push --prefix out origin gh-pages",
-    "start": "next start"
+    "deploy": "next build && touch out/.nojekyll && git add out/ && git commit -m \"Deploy\" && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
     "date-fns": "^2.28.0",
     "gh-pages": "^4.0.0",
     "gray-matter": "^4.0.3",
     "next": "latest",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "react": "latest",
+    "react-dom": "latest",
     "remark": "^14.0.2",
     "remark-html": "^15.0.1"
   }
